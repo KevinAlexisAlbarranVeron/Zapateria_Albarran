@@ -1,0 +1,88 @@
+header{
+    padding: 0px 0px 0px 0px;
+    text-align: left;   
+    margin-top: 10px;
+}
+
+body{
+    background-image: url('assets/background.jpg');
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    margin-bottom: 50px;
+    padding: 0px 0px 0px 20px;
+}
+
+p.imagenCenter{
+    text-align: center;
+}
+
+p.tbImage{
+    text-align: center;
+}
+
+.tituloCenter{
+    align-content: center;
+}
+
+td{
+    color: white;
+    font-size: x-large;
+}
+
+li{
+    color: white;
+    font-size: x-large;
+}
+
+th{
+    color: red;
+    font-size: 24px;
+}
+
+
+p{
+    color: white;
+    font-size: x-large;
+}
+
+h1{
+    color:red;
+    font-size: 2.5em;
+    font-family: Arial;
+    text-align: center;
+    font-size: 50px;
+}
+
+h2,h3,h4,h5,h6{
+    color:rgb(333, 238, 22);
+    font-family: Arial;
+    
+}
+
+.table1, .table2{
+    width: 100%;
+    font-family: 'Lucida Sans';
+    border: 2px solid #000;
+    border-collapse: collapse;
+ }
+
+ /* primer columna de table1 */
+ th{
+     width: 10%;
+    text-align: center;
+ }
+ /* lineas internas de la tabla */
+ td { 
+    width: 50%;
+    text-align: left;
+    vertical-align: top;
+    border: 0.5px solid #000;
+    border-collapse: collapse;
+    padding: 0.3em;
+ }
+
+  .fondo{
+    margin-bottom: 60px;
+ } 
